@@ -1,0 +1,55 @@
+.title {
+    background-color: #f44336; /* красный */
+    color: white;
+}
+
+.timer:hover {
+    background-color: #da190b; /* темный красный */
+}
+
+.timer {
+    transition: 0.3s;
+}
+
+.timer:hover {
+    transform: scale(1.1);
+}
+
+.timer {
+    color: #f44336; /* красный */
+}
+
+.timer {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.timer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    background-image: url("path_to_your_image");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.timer img {
+    width: 100%;
+    height: auto;
+}
+
+.timer {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.timer {
+    border: 2px solid #f44336; /* красный */
+    border-radius: 5px;
+}
